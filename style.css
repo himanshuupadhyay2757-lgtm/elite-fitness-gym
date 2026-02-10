@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #111;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff3c00;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    background: #ff3c00;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1558611848-73f7eb4001a1') no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+}
+
+.hero-btn {
+    margin-top: 20px;
+    background: #ff3c00;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.card {
+    width: 300px;
+    background: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
+/* ABOUT PAGE */
+
+.page-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.page-hero h1 {
+    font-size: 50px;
+}
+
+
+
+
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    color: #ff3c3c;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    text-shadow: 0 0 8px rgba(255, 60, 60, 0.6);
+}
+.about-section {
+    padding: 100px 0;
+    background: #000;
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 0 40px;
+}
+
+
+/* Image */
+.about-image img {
+    width: 480px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(255,60,60,0.4);
+}
+
+.about-image img {
+    transition: 0.4s ease;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 60, 60, 0.6);
+}
+
+
+/* Text */
+.about-text {
+    max-width: 600px;
+}
+
+.about-text p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+
+
+.mission {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.mission-grid {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mission-card {
+    background: #111;
+    padding: 30px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.mission-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.4);
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 10%;
+    background: #0a0a0a;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 40px;
+    color: #ff4500;
+}
+
+.cta {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SERVICES PAGE */
+
+.services-section {
+    padding: 80px 10%;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+}
+
+.service-card {
+    background: #111;
+    border-radius: 15px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.4s ease;
+}
+.service-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+
+.service-card h3 {
+    margin: 20px 0 10px;
+    color: #ff3c3c;
+}
+
+.service-card p {
+    padding: 0 20px 25px;
+    color: #ccc;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px rgba(255,60,60,0.4);
+}
+               
+
+
+
+
+
+
+
+
+
+
+
+
